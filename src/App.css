@@ -11,3 +11,13 @@
 .header{
   background-color: var(--my-color-3);
 }
+.logo_title{
+  font-weight: bold;
+  color: var(--my-color-wh);
+}
+.btn{
+  border: none;
+  border-radius: .25rem;
+  background-color: var(--my-color-2);
+  color: var(--my-color-bk);
+}

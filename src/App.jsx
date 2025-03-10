@@ -1,18 +1,22 @@
 import React from "react";
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <div>
       <header className="header">
         <div>
-          <div className="logo_box mx-auto">
-            <img src="public/images/title_logo.png" alt="logo" />
-            <img src="public/images/title.png" alt="logo" />
+          <div className="logo_box mx-auto d-flex column gap-3 mw-150">
+            <img
+              src="public/images/logo.png"
+              alt="logo"
+              className="logo_img mx-auto mw-100"
+            />
+            <h1 className="logo_title text-center">muscleLog</h1>
           </div>
-          <div className="welcome_box">
-            <button>Log In</button>
-            <button>Sign Up</button>
+          <div className="welcome_box d-flex column gap-2 mw-300 mx-auto">
+            <button className="btn btn_login">Log In</button>
+            <button className="btn btn_signup">Sign Up</button>
           </div>
           <ul>
             <li>
